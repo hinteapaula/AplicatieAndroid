@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PostMAUIApp.About"
+             Title="About">
+    <VerticalStackLayout>
+        <Image
+     Source="images.jpc"
+     SemanticProperties.Description="FastCourier"
+     HeightRequest="200"
+     HorizontalOptions="Center" />
+
+        <Label 
+            Text="At FastTrack Delivery Couriers, we're dedicated to providing swift and reliable delivery services tailored to meet your needs. Whether you're a small business, an e-commerce giant, or an individual sending a package across town, we've got you covered.
+            Ready to experience fast and reliable delivery services? Place your order with FastCourier Delivery Couriers and enjoy seamless shipping solutions tailored to your requirements. Your satisfaction is our top priority. Let us help you deliver with confidence."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
